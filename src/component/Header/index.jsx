@@ -11,7 +11,7 @@ function Header() {
   const locationPart = location.pathname;
   const navigate = useNavigate();
   useEffect(() => {
-    if (locationPart === "/word-search-reactjs") {
+    if (locationPart === "/word-search-reactjs/") {
       navigate("/");
     }
   }, [location]);
