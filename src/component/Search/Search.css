@@ -1,0 +1,119 @@
+.render-search p {
+  color: #517cbe;
+}
+.render-search li {
+  color: #0f8155;
+  font-size: 15px;
+  font-weight: 550;
+}
+.render-search li {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.form-outline {
+  margin-left: 739px;
+  padding-top: 100px;
+  display: flex;
+  position: relative;
+}
+
+.icon-search {
+  position: absolute;
+  z-index: 1;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 13px;
+}
+.input-search {
+  width: 300px;
+  height: 40px;
+  background-color: #5ea0f3;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 0px transparent;
+  color: #fff;
+  padding-left: 40px;
+  position: absolute;
+}
+.input-search::placeholder {
+  color: #fff;
+}
+input:focus::placeholder {
+  opacity: 0;
+}
+
+.close {
+  margin-top: 10px;
+  margin-left: 275px;
+  cursor: pointer;
+  position: absolute;
+  color: #fff;
+}
+
+.btn-search {
+  margin-top: 48px;
+  margin-left: 10px;
+  position: absolute;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin-top: 1px;
+  margin-left: 320px;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #1177ec;
+  font-weight: 550;
+  background-color: #fff;
+}
+.btn-search:hover {
+  background-color: rgb(220, 220, 220);
+}
+.list-search {
+  margin-top: 20px;
+  color: #000000;
+  margin-left: 20px;
+  color: #5ea0f3;
+}
+.render-search {
+  margin-top: -10px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.error-search {
+  margin-top: 80px;
+  margin-left: 850px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 15px;
+}
+.wrapper-popper {
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+  border-radius: 8px;
+  max-height: 680px;
+  min-height: 100%;
+  width: 1120px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -310px;
+  overflow: auto;
+}
+.loader {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 274px;
+  transform: translateY(-50%);
+  animation: spinner 0.8s linear infinite;
+}
+@keyframes spinner {
+  from {
+    transform: translateY(-50%) rotate(0);
+  }
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}

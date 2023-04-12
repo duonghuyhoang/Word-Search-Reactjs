@@ -1,0 +1,46 @@
+.wrapper-header {
+  height: 130px;
+  width: 100%;
+}
+.header-title {
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+ 
+  color: #517cbe;
+  margin: auto;
+}
+.nav {
+  width: 100%;
+  display: flex;
+}
+.nav-link {
+  height: 80px;
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  width: 426px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 25px;
+  font-weight: bolder;
+  margin: auto;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.activated {
+  color: #517cbe;
+}
+.image-logo {
+  margin-top: 15px;
+  margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+.logo-clone {
+  margin-right: 20px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}

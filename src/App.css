@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+}
+.wrapper-header {
+  height: 75px;
+  width: 100%;
+  display: flex;
+}
+
+button,
+input,
+[tabindex] {
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+.wrapper-search {
+  background-image: url(.././assets/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1005px;
+  width: 100%;
+  position: relative;
+}

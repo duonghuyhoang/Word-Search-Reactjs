@@ -1,0 +1,144 @@
+/* pc */
+@media (min-width: 1441px) and (max-width: 1920px) {
+}
+/* pc 4k */
+@media (min-width: 1921px) {
+  .form-outline {
+    margin-left: 1100px;
+  }
+  .wrapper-popper {
+    margin-left: -350px;
+  }
+  .error-search {
+    margin-left: 1225px;
+  }
+}
+/* laptop  */
+@media (min-width: 1026px) and (max-width: 1440px) {
+  .form-outline {
+    margin-left: 500px;
+  }
+  .wrapper-popper {
+    margin-left: -340px;
+  }
+  .error-search {
+    margin-left: 625px;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1025px) {
+  .wrapper-header {
+    width: 100%;
+  }
+  .form-outline {
+    margin-left: 370px;
+  }
+  .wrapper-popper {
+    margin-left: -340px;
+    max-height: 985px;
+  }
+  .error-search {
+    margin-left: 500px;
+  }
+  .wrapper-search {
+    width: 1175px;
+    height: 1165px;
+  }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1022px) {
+  .wrapper-header {
+    width: 836px;
+  }
+  .form-outline {
+    margin-left: 290px;
+  }
+  .wrapper-popper {
+    margin-left: -250px;
+    max-height: 1130px;
+    max-width: 920px;
+  }
+  .error-search {
+    margin-left: 430px;
+  }
+  .wrapper-search {
+    width: 1000px;
+    height: 1330px;
+  }
+}
+/* mobile */
+@media (max-width: 430px) {
+  .image-logo {
+    display: none;
+  }
+  .logo-clone {
+    display: none;
+  }
+  .header-title {
+    display: none;
+  }
+  .form-outline {
+    margin-left: 45px;
+  }
+  .input-search {
+    width: 200px;
+  }
+  .btn-search {
+    width: 120px;
+    margin-left: 220px;
+  }
+  .wrapper-popper {
+    margin-left: -20px;
+    max-height: 610px;
+    max-width: 375px;
+  }
+  .content {
+    margin-left: -25px;
+  }
+  .list-search {
+    margin-left: 40px;
+  }
+  .error-search {
+    margin-left: 120px;
+  }
+  .wrapper-search {
+    max-width: 428px;
+    min-height: 705px;
+  }
+  .close {
+    margin-top: 10px;
+    margin-left: 175px;
+  }
+  .loader {
+    margin-left: 175px;
+  }
+}
+@media (max-width: 376px) {
+  .wrapper-search {
+    max-width: 375px;
+    min-height: 705px;
+  }
+  .form-outline {
+    margin-left: 30px;
+  }
+  .btn-search {
+    width: 90px;
+  }
+  .content {
+    margin-left: -20px;
+  }
+  .wrapper-popper {
+    margin-left: -3px;
+    max-height: 610px;
+    max-width: 325px;
+  }
+  .error-search {
+    margin-left: 100px;
+  }
+  .close {
+    margin-top: 10px;
+    margin-left: 175px;
+  }
+  .loader {
+    margin-left: 175px;
+  }
+}
