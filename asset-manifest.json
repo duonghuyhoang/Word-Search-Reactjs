@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/word-search-reactjs/static/css/main.8203c8ce.css",
-    "main.js": "/word-search-reactjs/static/js/main.9ec45c95.js",
+    "main.css": "/word-search-reactjs/static/css/main.fc63dcb1.css",
+    "main.js": "/word-search-reactjs/static/js/main.408220f0.js",
     "static/js/787.d69b1e67.chunk.js": "/word-search-reactjs/static/js/787.d69b1e67.chunk.js",
+    "static/media/background.png": "/word-search-reactjs/static/media/background.5fd8cb6215fd91166e13.png",
     "index.html": "/word-search-reactjs/index.html",
-    "main.8203c8ce.css.map": "/word-search-reactjs/static/css/main.8203c8ce.css.map",
-    "main.9ec45c95.js.map": "/word-search-reactjs/static/js/main.9ec45c95.js.map",
+    "main.fc63dcb1.css.map": "/word-search-reactjs/static/css/main.fc63dcb1.css.map",
+    "main.408220f0.js.map": "/word-search-reactjs/static/js/main.408220f0.js.map",
     "787.d69b1e67.chunk.js.map": "/word-search-reactjs/static/js/787.d69b1e67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8203c8ce.css",
-    "static/js/main.9ec45c95.js"
+    "static/css/main.fc63dcb1.css",
+    "static/js/main.408220f0.js"
   ]
 }
